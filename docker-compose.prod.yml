@@ -4,7 +4,7 @@ services:
   nginx:
     build: ./nginx
     ports:
-      - "99:80"
+      - "1337:80"
     volumes:
       - static_volume:/home/app/web/staticfiles
     depends_on:
